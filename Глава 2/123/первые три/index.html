@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+
+<body>
+
+  <h1>Я JavaScript!</h1>
+  <p>Перед скриптом...</p>
+
+  <script>
+    alert( 'Привет, мир!' );
+  </script>
+
+  <p>...После скрипта.</p>
+
+  <p>Перед скриптом 2...</p>
+
+  <script src="./scriptJS.js"></script>
+
+  <p>...После скрипта 2.</p>
+
+  <p>...После скрипта.</p>
+
+  <p>Перед скриптом 3...</p>
+
+  <script src="./file/scriptJS2.js"></script>
+
+  <p>...После скрипта 3.</p>
+
+
+  <script src="file.js">
+    alert(1); // содержимое игнорируется, так как есть атрибут src
+  </script>
+
+  <script>
+  alert(3 +
+    1
+    + 2);
+    </script>
+
+    <script>
+      let a = 5;
+      let b = 10;
+
+    //Работающий варик
+    alert('Hello');
+    [a, b].forEach(alert);
+
+      a = "privet";
+      b = 'dom';
+    /*Пример ошибки: не хватает точки с запятой */
+    alert('Hello')          
+    [a, b].forEach(alert);
+    </script>
+
+ <script>alert('КОНЕЦ!')</script>
+
+</body>
+
+</html>
